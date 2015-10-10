@@ -1,0 +1,79 @@
+libsub-identify-perl (0.08-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Add debian/upstream/metadata.
+  * Update upstream copyright years.
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Oct 2014 00:00:58 +0200
+
+libsub-identify-perl (0.04-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Switch to "3.0 (quilt)" source format.
+  * debian/rules: use three-line dh(1) variant.
+  * debian/copyright: refresh license stanzas.
+  * Use debhelper 9.20120312 to get all hardening flags.
+  * Make short description a noun phrase.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 22 Feb 2014 18:40:50 +0100
+
+libsub-identify-perl (0.04-1) unstable; urgency=low
+  
+  [ gregor hermann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  
+  [ Rene Mayorga ]
+  * New upstream release
+  * debian/control 
+    + set standards-version to 3.8.0 (no changes)
+    + add myself to uploaders
+    + change from `Architecture: all' to `Architecture: any'
+    + add ${shlib:Depends} to Depends field
+    + move B-D-I to B-D
+  * debian/rules - refresh using dh-make-perl
+  * debian/copyright
+    + refresh using dh-make-perl
+    + add ppport.h copyright info
+  * debian/watch - remove comments
+
+  [ gregor herrmann ]
+  * Add libtest-pod-perl to Build-Depends in order to activate an additional
+    test.
+
+ -- Rene Mayorga <rmayorga@debian.org.sv>  Tue, 16 Dec 2008 21:36:28 -0600
+
+libsub-identify-perl (0.03-1) unstable; urgency=low
+
+  * Initial Release (closes: #483656).
+
+ -- Krzysztof Krzyżaniak (eloy) <eloy@debian.org>  Wed, 28 May 2008 17:24:38 +0200
